@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <defs>
+    <!-- Gradient similar to the main logo -->
+    <linearGradient id="favGradient" x1="0" y1="0" x2="64" y2="64">
+      <stop offset="0%" stop-color="#868CFF"/>
+      <stop offset="100%" stop-color="#4318FF"/>
+    </linearGradient>
+  </defs>
+  <!-- Circular background with gradient fill -->
+  <circle cx="32" cy="32" r="32" fill="url(#favGradient)"/>
+  <!-- Brand initials; adjust font-family and size as needed -->
+  <text x="32" y="42" text-anchor="middle" font-family="Montserrat, Arial, sans-serif" font-size="28" fill="#ffffff" font-weight="bold">
+    SR
+  </text>
+</svg>
